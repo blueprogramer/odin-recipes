@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./styles/index.css" rel="stylesheet">
+
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li>
-            <a href="./recipes/casserole.html">Grandma's Ground Beef Casserole</a>
-        </li>
-        <li>
-            <a href="./recipes/chicken.html">Firecracker Chicken</a>
-        </li>
-        <li>
-            <a href="./recipes/cookies.html">Fudge Stripe Cookies</a>
-        </li>
-    </ul>
+    <div class="main-wrapper">
+        <h1 class="main-heading">odin recipes</h1>
+        <div class="list-wrapper">
+            <ul class="main-list">
+                <li class="main-list-item">
+                    <a href="./recipes/casserole.html">
+                        <h4>ground beef casserole</h4>
+                        <img class="list-img" src="./images/casserole.jpg" alt="casserole">
+                    </a>
+                </li>
+                <li class="main-list-item">
+                    <a href="./recipes/chicken.html">
+                        <h4>firecracker chicken</h4>
+                        <img class="list-img" src="./images/chicken.jpg" alt="chicken">
+                    </a>
+                </li>
+                <li class="main-list-item">
+                    <a href="./recipes/cookies.html">
+                        <h4>fudge stripe cookies</h4>
+                        <img class="list-img" src="./images/cookies.jpg" alt="cookies">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
